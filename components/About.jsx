@@ -1,7 +1,7 @@
 import DevImg from "./DevImg"
 import Image from "next/image"
 import { Tabs, TabsContent, TabsList, TabsTrigger} from "@/components/ui/tabs"
-import {User2, MailIcon, GraduationCap, Calendar} from "lucide-react"
+import {User2, MailIcon, GraduationCap} from "lucide-react"
 
 const infoData = [
     {
@@ -11,10 +11,6 @@ const infoData = [
     {
         icon: <MailIcon size={20}/>,
         text:"oguzhanfakk@gmail.com",
-    },
-    {
-        icon: <Calendar size={20}/>,
-        text:"Born on 16 Nov, 1997",
     },
     {
         icon: <GraduationCap size={20}/>,
@@ -28,13 +24,7 @@ const qualificationData = [
             {
                 university: "Eskisehir Osmangazi University",
                 qualification:"Electrical and Electronics Engineering",
-                years: "2023",
-            },
-            {
-                university: "Eskisehir Osmangazi University",
-                qualification:"English Prep School",
-                years: "I studied one-year English language preparatory education so I can use the foreign language proficiency in the units where education is carried out entirely in foreign languages.",
-                
+                years: "Eskisehir, Turkey | Sep 2023",
             },
         ],
         
@@ -44,20 +34,17 @@ const skillData = [
     {
         title: "skills",
         data: [
-            {
-                name: "Front-end Development",
-               }, 
            {
-            name: "HTML, CSS",
+            name: "HTML, CSS, JavaScript",
            }, 
            {
-            name: "Tailwind CSS, Bootstrap",
+            name: "Tailwind CSS, Bootstrap, SASS",
            }, 
            {
-            name: "JavaScript",
+            name: "TypeScript",
            }, 
            {
-            name: "React",
+            name: "React, Next.js",
            }, 
         ],
     },
